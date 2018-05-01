@@ -53,7 +53,7 @@
     .survey {
         margin-top: 50px;
         width: 500px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.9);
         border: solid black 1px;
         display: flex;
         flex-direction: column;
