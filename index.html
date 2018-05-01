@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="outerNavDiv">
-        <div class="navBod">
+        <!-- <div class="navBod">
             <img class='imgs' src='../client/src/images/Dobermanlogo2.jpg' alt="" />
             <h1 class='NavTitle'>Utah European Doberman</h1>
             <div class="menuOptions">
@@ -26,6 +26,16 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div class="navTitle">
+            <h1> Utah European Doberman</h1>
+        </div>
+        <div class="navSet">
+            <a class='linkz' href="/">Home</a>
+            <a class='linkz' href="/about">About</a>
+            <a class='linkz' href="/dogs">Dogs</a>
+            <a class='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
+            <a class='linkz' href="/contact">Contact Us</a>
         </div>
     </div>
     <form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
@@ -35,64 +45,71 @@
                 <p class='detailSurvey'>Dogs are 2,000 - 3,200 based on options selected. </p>
                 <h3 class='detailSurvey'>Email: Europeandobes@gmail.com</h3>
             </div>
-            <div class="infoSurvey">
-                <h3 class="surveyInputs">Name:
-                    <input type="text" placeholder='Name' name="Name" value=""/>
-                </h3>
-                <h3 class="surveyInputs">Email:
-                    <input type="text" placeholder='Email' name="Email" value=""/>
-                </h3>
-                <h3 class="surveyInputs">Location:
-                    <input type="text" placeholder='Where are you located?' name="Location" value="" />
-                </h3>
-                <h3 class="surveyInputs">Phone Number:
-                    <input type="text" placeholder='Phone Number' name="Phone" value=""/>
-                </h3>
-                <h3 class="surveyInputs">Social Media:
-                    <input type="text" placeholder='Instagram/Facebook handle' name="Social Media" value="" />
-                </h3>
-            </div>
-            <div class="contactSurvey">
-                <h3 class="surveyInputs">Best way to contact:</h3>
-                <label htmlFor="">
-                    <input type="radio" name="Best way to contact" value="Phone Number" /> Phone</label>
-                <label htmlFor="">
-                    <input type="radio" name="Best way to contact" value="Email" /> Email</label>
-                <label htmlFor="">
-                    <input type="radio" name="Best way to contact" value="Social Media" /> Social Media</label>
-            </div>
-            <div class="genderSurvey">
-                <h3 class="surveyInputs">Preferred Gender:</h3>
-                <label htmlFor="">
-                    <input type="radio" name="gender" value="Male" /> Male</label>
-                <label htmlFor="">
-                    <input type="radio" name="gender" value="Female" /> Female</label>
-                <label htmlFor="">
-                    <input type="radio" name="gender" value="No Preference" /> No Preference</label>
-            </div>
-            <div class="breedSurvey">
-                <h3 class="surveyInputs">Do you plan to breed:</h3>
-                <label htmlFor="">
-                    <input type="radio" name="breed" value="Yes" /> Yes</label>
-                <label htmlFor="">
-                    <input type="radio" name="breed" value="No" /> No</label>
-            </div>
-            <div class="appearanceSurvey">
-                <h3 class="surveyInputs">Preference on appearance:</h3>
-                <div class="optionSurvey">
-                    <label htmlFor="">
-                        <input type="checkbox" name="preference" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
-                    <label htmlFor="">
-                        <input type="checkbox" name="preference" value="Tail" /> Tail Docked</label>
+            <div class="survey">
+                <div class="infoSurvey">
+                    <h3 class="surveyInputs nameT">Name:</h3>
+                    <h3>
+                        <input class="nameI" type="text" placeholder='Name' name="Name" value="" />
+                    </h3>
+                    <h3 class="surveyInputs emailT">Email:</h3>
+                    <h3>
+                        <input class="emailI" type="text" placeholder='Email' name="Email" value="" />
+                    </h3>
+                    <h3 class="surveyInputs locationT">Location:</h3>
+                    <h3>
+                        <input class="locationI" type="text" placeholder='Where are you located?' name="Location" value="" />
+                    </h3>
+                    <h3 class="surveyInputs phoneT">Phone Number:</h3>
+                    <h3>
+                        <input class="phoneI" type="text" placeholder='Phone Number' name="Phone" value="" />
+                    </h3>
+                    <h3 class="surveyInputs socialT">Social Media:</h3>
+                    <h3>
+                        <input class="phoneI" type="text" placeholder='Instagram/Facebook handle' name="Social Media" value="" />
+                    </h3>
                 </div>
-            </div>
-            <input type="text" class="hidden" name="bot-field" placeholder='Leave blank' />
-            <div className="description input">
-                <textarea name="description" className="describe" placeholder="Anything Additional?" value="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <br />
-            <div class="submitSurvey">
-                <button type=”submit”>Send</button>
+                <div class="contactSurvey">
+                    <h3 class="surveyInputs">Best way to contact:</h3>
+                    <label htmlFor="">
+                        <input type="radio" name="Best way to contact" value="Phone Number" /> Phone</label>
+                    <label htmlFor="">
+                        <input type="radio" name="Best way to contact" value="Email" /> Email</label>
+                    <label htmlFor="">
+                        <input type="radio" name="Best way to contact" value="Social Media" /> Social Media</label>
+                </div>
+                <div class="genderSurvey">
+                    <h3 class="surveyInputs">Preferred Gender:</h3>
+                    <label htmlFor="">
+                        <input type="radio" name="gender" value="Male" /> Male</label>
+                    <label htmlFor="">
+                        <input type="radio" name="gender" value="Female" /> Female</label>
+                    <label htmlFor="">
+                        <input type="radio" name="gender" value="No Preference" /> No Preference</label>
+                </div>
+                <div class="breedSurvey">
+                    <h3 class="surveyInputs">Do you plan to breed:</h3>
+                    <label htmlFor="">
+                        <input type="radio" name="breed" value="Yes" /> Yes</label>
+                    <label htmlFor="">
+                        <input type="radio" name="breed" value="No" /> No</label>
+                </div>
+                <div class="appearanceSurvey">
+                    <h3 class="surveyInputs">Preference on appearance:</h3>
+                    <div class="optionSurvey">
+                        <label htmlFor="">
+                            <input type="checkbox" name="preference" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
+                        <label htmlFor="">
+                            <input type="checkbox" name="preference" value="Tail" /> Tail Docked</label>
+                    </div>
+                </div>
+                <input type="text" class="hidden" name="bot-field" placeholder='Leave blank' />
+                <div class="description input">
+                    <textarea name="description" class="describe" placeholder="Anything Additional?" value="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br />
+                <div class="submitSurvey">
+                    <button type=”submit”>Send</button>
+                </div>
             </div>
             <br />
         </div>
