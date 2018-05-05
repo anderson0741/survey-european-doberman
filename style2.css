@@ -9,14 +9,12 @@
         text-shadow: 3px 3px 3px black;
         margin-top: 45px;
         margin-left: 35px;
-        /* align-self: flex-end */
     }
     .navSet {
         display: flex;
         justify-content: flex-end;
         margin-top: 45px;
         margin-right: 35px;
-        /* align-self: flex-start */
     }
     .linkz {
         font-size: 25px;
@@ -27,7 +25,6 @@
         text-shadow: 3px 3px 3px black;
     }
     .linkz:hover {
-        /* font-size: 18px; */
         margin-left: 15px;
         text-decoration: none;
         color: white;
@@ -68,17 +65,9 @@
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        /* background-color: black;
-        width: 100vw;
-        height: 7vh; */
     }
     .navTitle {
-        /* color: white;
-        text-shadow: 3px 3px 3px black;
-        margin-top: 45px;
-        margin-left: 35px; */
         display: none;
-        /* align-self: flex-end */
     }
     .navSet {
         display: flex;
@@ -88,7 +77,6 @@
         height: 7vh;
         width: 100%;
         margin: auto;
-        /* align-self: flex-start */
     }
     .linkz {
         font-size: 12px;
@@ -100,16 +88,54 @@
         margin-right: 3px;
     }
     .linkz:hover {
-        /* font-size: 18px; */
         margin-left: 15px;
         text-decoration: none;
         color: white;
         text-shadow: 8px 8px 8px black;
     }
+    .infoSurvey {
+        display: grid;
+        grid-template-columns: 90px 50px;
+        grid-template-rows: 30px 30px 30px 30px 40px;
+        grid-gap: 5px;
+        grid-template-areas: "nt ni" "et ei" "lt li" "pt pi" "st si";
+    }
+    .nameT {grid-area: nt}
+    .nameI {grid-area: ni}
+    .emailT {grid-area: et}
+    .emailI {grid-area: ei}
+    .locationT {grid-area: lt}
+    .locationI {grid-area: li}
+    .phoneT {grid-area: pt}
+    .phoneI {grid-area: pi}
+    .socialT {grid-area: st}
+    .socialI {grid-area: si}
+    .survey {
+        margin-top: 50px;
+        width: 360px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: solid black 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mar{
+        margin-left: 20px;
+    }
+    .hidden{
+        display: none;
+    }
+    .description{
+        align-self: center;
+        margin-top: 12px;
+        /* width: 300px; */
+    }
+    .lemons{
+        width: 300px;
+    }
 }
 
 .addresses {
-    /* margin-top: 10vh; */
     margin: auto;
     margin-top: 10vh;
     display: flex;
@@ -143,8 +169,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
 }
 
 .detailSurvey {
@@ -161,4 +185,6 @@ body {
 
 .submitSurvey {
     align-self: center;
+    margin-bottom: 10px;
+    background-color: red;
 }
