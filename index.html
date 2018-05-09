@@ -11,15 +11,45 @@
 
 <body>
     <div class="outerNavDiv">
-        <div class="navTitle">
-            <h1> Utah European Doberman</h1>
+        <div class="functionalDiv1">
+            <div class="navTitle">
+                <h1> Utah European Doberman</h1>
+            </div>
+            <div class="navSet">
+                <a class='linkz' href="https://utah-european-doberman.herokuapp.com/">Home</a>
+                <a class='linkz' href="https://utah-european-doberman.herokuapp.com/about">About</a>
+                <a class='linkz' href="https://utah-european-doberman.herokuapp.com/dogs">Dogs</a>
+                <a class='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
+                <a class='linkz' href="https://utah-european-doberman.herokuapp.com/contact">Contact Us</a>
+            </div>
         </div>
-        <div class="navSet">
-            <a class='linkz' href="https://utah-european-doberman.herokuapp.com/">Home</a>
-            <a class='linkz' href="https://utah-european-doberman.herokuapp.com/about">About</a>
-            <a class='linkz' href="https://utah-european-doberman.herokuapp.com/dogs">Dogs</a>
-            <a class='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
-            <a class='linkz' href="https://utah-european-doberman.herokuapp.com/contact">Contact Us</a>
+        <div class="functionalDiv">
+            <nav role="navigation">
+                <div class="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul class="menu">
+                        <a class="navLink" href="/">
+                            <li>Home</li>
+                        </a>
+                        <a class="navLink" href="/about">
+                            <li>About</li>
+                        </a>
+                        <a class="navLink" href="/dogs">
+                            <li>Dogs</li>
+                        </a>
+                        <a class="navLink" href="https://wizardly-borg-524486.netlify.com/">
+                            <li>Reserve Your Dog</li>
+                        </a>
+                        <a class="navLink" href="/contact" target="_blank">
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
     <form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
@@ -88,7 +118,8 @@
                 </div>
                 <input type="text" class="hidden" name="bot-field" placeholder='Leave blank' />
                 <div class="description input">
-                    <textarea class="lemons" name="description" class="describe" placeholder="Anything Additional?" value="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="lemons" name="description" class="describe" placeholder="Anything Additional?" value="" id="" cols="30"
+                        rows="10"></textarea>
                 </div>
                 <br />
                 <div class="submitSurvey">
