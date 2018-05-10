@@ -1,5 +1,5 @@
 @media (min-width: 787px) {
-    .outerNavDiv {
+    .functionalDiv1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,9 +60,15 @@
     .functionalDiv{
         display: none;
     }
+    .hidden{
+        display: none;
+    }
 }
 
 @media (max-width: 786px) {
+    body{
+        
+    }
     .functionalDiv {
         margin: -10px;
         padding: 0;
@@ -154,12 +160,6 @@
     }
     .functionalDiv1{
         display: none;
-    }
-    .outerNavDiv {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
     }
     .navTitle {
         display: none;
