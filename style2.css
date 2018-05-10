@@ -34,7 +34,6 @@
         display: grid;
         grid-template-columns: 200px 200px;
         grid-template-rows: 100px 100px 100px 100px 100px;
-        grid-gap: 50px;
         grid-template-areas: "nt ni" "et ei" "lt li" "pt pi" "st si";
     }
     .nameT {grid-area: nt}
@@ -62,6 +61,10 @@
     }
     .hidden{
         display: none;
+    }
+    .lemons{
+        width: 400px;
+        margin-top: 30px;
     }
 }
 
@@ -226,6 +229,7 @@
     }
     .lemons{
         width: 300px;
+        margin-top: 30px;
     }
 }
 
