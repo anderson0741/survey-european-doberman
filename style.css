@@ -32,11 +32,12 @@
     }
     .infoSurvey {
         display: grid;
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 100px 100px 100px 100px 100px;
+        margin-top: 5vh;
+        grid-template-columns: 100px 150px;
+        grid-template-rows: 30px 30px 30px 30px 50px;
         grid-template-areas: "nt ni" "et ei" "lt li" "pt pi" "st si";
     }
-    .nameT {grid-area: nt}
+    .nameT {grid-area: nt;}
     .nameI {grid-area: ni}
     .emailT {grid-area: et}
     .emailI {grid-area: ei}
@@ -245,7 +246,7 @@
 }
 
 body {
-    background-image: url('./5 copy.jpg');
+    background-image: url('./images/5\ copy.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat-y;
