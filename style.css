@@ -37,16 +37,36 @@
         grid-template-rows: 30px 30px 30px 30px 50px;
         grid-template-areas: "nt ni" "et ei" "lt li" "pt pi" "st si";
     }
-    .nameT {grid-area: nt;}
-    .nameI {grid-area: ni}
-    .emailT {grid-area: et}
-    .emailI {grid-area: ei}
-    .locationT {grid-area: lt}
-    .locationI {grid-area: li}
-    .phoneT {grid-area: pt}
-    .phoneI {grid-area: pi}
-    .socialT {grid-area: st}
-    .socialI {grid-area: si}
+    .nameT {
+        grid-area: nt;
+    }
+    .nameI {
+        grid-area: ni
+    }
+    .emailT {
+        grid-area: et
+    }
+    .emailI {
+        grid-area: ei
+    }
+    .locationT {
+        grid-area: lt
+    }
+    .locationI {
+        grid-area: li
+    }
+    .phoneT {
+        grid-area: pt
+    }
+    .phoneI {
+        grid-area: pi
+    }
+    .socialT {
+        grid-area: st
+    }
+    .socialI {
+        grid-area: si
+    }
     .survey {
         margin-top: 50px;
         width: 500px;
@@ -57,15 +77,32 @@
         justify-content: center;
         align-items: center;
     }
-    .functionalDiv{
+    .functionalDiv {
         display: none;
     }
-    .hidden{
+    .hidden {
         display: none;
     }
-    .lemons{
+    .lemons {
         width: 400px;
         margin-top: 30px;
+    }
+    .rff {
+        color: red;
+        text-decoration: underline;
+    }
+    .mar {
+        border: none;
+        border-bottom: 1px solid #757575;
+        -webkit-transition: width 0.4s ease;
+        transition: all .5s ease-in .4s;
+        width: 100px;
+    }
+    .mar:hover {
+        outline: none;
+        width: 100%;
+        box-shadow: 3px 4px 3px #757575;
+        /* border: 1px solid blue; */
     }
 }
 
@@ -154,11 +191,10 @@
         padding: 10px 0;
         font-size: 22px;
     }
-
     .menuToggle input:checked~ul {
         transform: none;
     }
-    .functionalDiv1{
+    .functionalDiv1 {
         display: none;
     }
     .navTitle {
@@ -195,16 +231,36 @@
         grid-gap: 5px;
         grid-template-areas: "nt ni" "et ei" "lt li" "pt pi" "st si";
     }
-    .nameT {grid-area: nt}
-    .nameI {grid-area: ni}
-    .emailT {grid-area: et}
-    .emailI {grid-area: ei}
-    .locationT {grid-area: lt}
-    .locationI {grid-area: li}
-    .phoneT {grid-area: pt}
-    .phoneI {grid-area: pi}
-    .socialT {grid-area: st}
-    .socialI {grid-area: si}
+    .nameT {
+        grid-area: nt
+    }
+    .nameI {
+        grid-area: ni
+    }
+    .emailT {
+        grid-area: et
+    }
+    .emailI {
+        grid-area: ei
+    }
+    .locationT {
+        grid-area: lt
+    }
+    .locationI {
+        grid-area: li
+    }
+    .phoneT {
+        grid-area: pt
+    }
+    .phoneI {
+        grid-area: pi
+    }
+    .socialT {
+        grid-area: st
+    }
+    .socialI {
+        grid-area: si
+    }
     .survey {
         margin-top: 50px;
         width: 360px;
@@ -214,17 +270,17 @@
         flex-direction: column;
         justify-content: center;
     }
-    .mar{
+    .mar {
         margin-left: 20px;
     }
-    .hidden{
+    .hidden {
         display: none;
     }
-    .description{
+    .description {
         align-self: center;
         margin-top: 12px;
     }
-    .lemons{
+    .lemons {
         width: 300px;
         margin-top: 30px;
     }
